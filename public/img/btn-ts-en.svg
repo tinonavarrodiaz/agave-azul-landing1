@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.18 59.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #5d6e78;
+        stroke-miterlimit: 10;
+        stroke-width: .71px;
+      }
+
+      .cls-2 {
+        letter-spacing: .03em;
+      }
+
+      .cls-3 {
+        letter-spacing: .1em;
+      }
+
+      .cls-4 {
+        letter-spacing: .1em;
+      }
+
+      .cls-5 {
+        letter-spacing: .08em;
+      }
+
+      .cls-6 {
+        fill: #5d6e78;
+        font-family: TruenoRg, Trueno;
+        font-size: 16.44px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <text class="cls-6" transform="translate(19.38 34.69)"><tspan class="cls-2" x="0" y="0">T</tspan><tspan class="cls-4" x="10.01" y="0">echni</tspan><tspan class="cls-5" x="63.74" y="0">c</tspan><tspan class="cls-3" x="74.3" y="0">al Sheet</tspan></text>
+      <rect class="cls-1" x=".35" y=".35" width="191.48" height="58.83"/>
+    </g>
+  </g>
+</svg>

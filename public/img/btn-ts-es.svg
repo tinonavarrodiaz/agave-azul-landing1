@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.18 59.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #5d6e78;
+        stroke-miterlimit: 10;
+        stroke-width: .71px;
+      }
+
+      .cls-2 {
+        letter-spacing: .1em;
+      }
+
+      .cls-3 {
+        letter-spacing: .1em;
+      }
+
+      .cls-4 {
+        letter-spacing: .08em;
+      }
+
+      .cls-5 {
+        letter-spacing: .03em;
+      }
+
+      .cls-6 {
+        fill: #5d6e78;
+        font-family: TruenoRg, Trueno;
+        font-size: 16.44px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <text class="cls-6" transform="translate(30.56 34.69)"><tspan class="cls-3" x="0" y="0">Ficha </tspan><tspan class="cls-5" x="58.13" y="0">T</tspan><tspan class="cls-2" x="68.15" y="0">écni</tspan><tspan class="cls-4" x="109.23" y="0">c</tspan><tspan class="cls-2" x="119.79" y="0">a</tspan></text>
+      <rect class="cls-1" x=".35" y=".35" width="191.48" height="58.83"/>
+    </g>
+  </g>
+</svg>
