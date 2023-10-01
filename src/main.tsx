@@ -1,18 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
-import { RouterProvider } from 'react-router-dom'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { Router } from './routes/Router'
 import './scss/styles.scss'
+import PublicTemplate from './components/templates/public/PublicTemplate'
 
-const queryClient = new QueryClient()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={Router} />
-      <ReactQueryDevtools />
-    </QueryClientProvider>
+      <PublicTemplate/>
   </React.StrictMode>,
 )

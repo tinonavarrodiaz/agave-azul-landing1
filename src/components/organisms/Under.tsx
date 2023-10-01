@@ -11,13 +11,13 @@ type Props = {
 const Under = ({data}:Props) => {
   return (
     <section className="Under">
-      <div className="grid-container w-container-2 mx-auto md:grid">
+      <div className=" container1 Under__container w-container-2 mx-auto md:grid">
         <div className="img" data-aos="fade-right">
           <Image name="jimador" ext="jpg" />
         </div>
-        <div className="text lg:pb-8" data-aos="fade-left">
+        <div className="Under__text lg:pb-8" data-aos="fade-left">
           <h1
-            className="text-text-gray text-4xl md:text-[3.64vw] md:leading-[1.1em] text-center md:text-left mt-7 md:mt-0 mb-4 md:mb-[3.64vw] tracking-[3px]"
+            className="Under__title"
           >
             {data?.title}
           </h1>

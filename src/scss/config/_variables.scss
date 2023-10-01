@@ -1,5 +1,5 @@
-$body-bg: #fdfdfd;
-$font-color: #222;
+$body-bg: #fff;
+$font-color: #414042;
 
 $width100: 100vw;
 
@@ -8,10 +8,10 @@ $border: 1px solid var(--border-color-opacity);
 $rot: 30deg;
 $linear-gradient: linear-gradient(to right, #3264f5 2%, #7004bc 82%);
 
-:root{
-  --header-height: 75px;
-  @include from (l){
-    --header-height: 100px;
+:root {
+  --header-height: 100px;
+  @include from(l) {
+    --header-height: 10vw;
   }
 }
 $z-back: -10;
@@ -30,16 +30,24 @@ $z-modal: 1000;
 }
 
 :root {
+  --banner-bg: #f6ecdf;
+  --text-gray: #969696;
+  --ts: #5c6d77;
+  --logo: 16.915609375vw;
+  --letterSpacing: 2px;
+  --container: 90%;
+  --container-2: 85%;
+  --container3: 87%;
   --social-size: 2em;
   --animateDiration: 0.5s;
   --body-bg: #{$body-bg};
   --color-main: #2a6091;
-  --color-main-dark: #0936B8;
+  --color-main-dark: #0936b8;
   --color-main-hover: #{darken(#2a6091, 10)};
   --color-second: #f021b6;
   --color-second-hover: #{darken(#f021b6, 15)};
-  --color-third: #7004BC;
-  --color-third-hover: #{darken(#7004BC, 15)};
+  --color-third: #7004bc;
+  --color-third-hover: #{darken(#7004bc, 15)};
   --font-color: rgb(5, 5, 7);
   --color-accent: rgb(85, 132, 255); //rgb(26, 115, 224);
   --color-accent-dark: #{darken(rgb(85, 132, 255), 15)}; //rgb(26, 115, 224);
@@ -52,5 +60,4 @@ $z-modal: 1000;
   --item-height: auto;
   --width100: calc(100vw - var(--scrollbar));
   --item-skill-width: 200px;
-
 }

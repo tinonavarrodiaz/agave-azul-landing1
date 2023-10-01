@@ -1,0 +1,32 @@
+.Under {
+  background: lime;
+  margin-top: 4em;
+  @include from(l) {
+    margin-top: get-vw(179px);
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    order: -1;
+    background: red;
+    margin-bottom: 3vw;
+    text-align: justify;
+    p {
+      margin-bottom: 0;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-size: 9vw;
+    margin-bottom: 0.8em;
+    @include from(m) {
+      font-size: 8vw;
+    }
+    @include from(l) {
+      text-align: left;
+      font-size: gat-vw(70px);
+    }
+  }
+}

@@ -3,6 +3,8 @@
 // @import 'aos/dist/aos.css';
 // @import 'statics/spop.css';
 // @import 'rsuite/dist/rsuite.min.css';
+@import './fonts/trueno/style.css';
+@import './fonts/Kohinoor/stylesheet.css';
 
 $breakpoints: (
   s: 0,
@@ -49,6 +51,9 @@ $legacy: true; // Soporte para versiones antiguas
 @import 'components/menus';
 @import 'components/header';
 @import 'components/footer';
+
+@import 'sections/hero';
+@import 'sections/under';
 
 // Utilities (hacks)
 // Todos los hacks que hayas necesitado para solucionar conflictos

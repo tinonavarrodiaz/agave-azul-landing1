@@ -1,3 +1,74 @@
+.main-header {
+  position: relative;
+  background: var(--banner-bg);
+  height: var(--header-height);
+  width: 100%;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 60%;
+    max-height: 200px;
+    @include from(l) {
+      width: var(--logo);
+      max-height: unset;
+    }
+  }
+}
+.main-menu {
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  background: var(--banner-bg);
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s;
+  @include from(l) {
+    width: auto;
+    max-height: unset;
+    display: flex;
+    column-gap: 2.604166666666667vw;
+    position: static;
+    font-size: 0.9375vw;
+  }
+  &.is-active {
+    max-height: calc(3 * 2.6em);
+  }
+  li {
+    border-bottom: 1px solid rgba(#000, 0.3);
+    &:first-child {
+      border-top: 1px solid rgba(#000, 0.3);
+    }
+    @include from(lg) {
+      border: none !important;
+    }
+  }
+  a {
+    display: block;
+    line-height: 2.5em;
+    padding-left: 1em;
+    @include from(lg) {
+      padding-left: 0;
+    }
+  }
+}
+.switch {
+  background: var(--banner-bg);
+  width: auto;
+  position: absolute;
+  top: 0.2em;
+  right: 1.3em;
+  z-index: 10;
+  display: flex;
+  justify-content: flex-end;
+  @include from(lg) {
+    top: 1em;
+    right: 5vw;
+  }
+}
 // .main-header{
 //   width: 100%;
 //   height: var(--header-height);

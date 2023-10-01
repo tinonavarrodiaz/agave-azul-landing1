@@ -18,15 +18,17 @@ function Switch({lang, langFn}: Props) {
     langFn()
   }
   return (
-    <div className='ui-switch-container'>
-      <label className="ui-switch">
-        English
-          <input type="checkbox" onChange={change} ref={input}/>
-        <div className="slider">
-          <div className="circle"></div>
-        </div>
-        Español
-      </label>
+    <div className="switch">
+      <div className='ui-switch-container'>
+        <label className="ui-switch">
+          English
+            <input type="checkbox" onChange={change} ref={input}/>
+          <div className="slider">
+            <div className="circle"></div>
+          </div>
+          Español
+        </label>
+      </div>
     </div>
   )
 }

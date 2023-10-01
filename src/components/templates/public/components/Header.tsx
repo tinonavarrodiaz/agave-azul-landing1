@@ -12,9 +12,11 @@ const Header = ({data}:Props) => {
   };
   return  (
     <header className="main-header">
-      <img src="/logo.svg" alt="Logo Destiladora Agave Azul" />
-      <Hamburgers active={active} action={ToggleMenuFunction}/>
-      <Menu active={active} menu={data}/>
+      <div className="container main-header__container">
+        <img src="/logo.svg" alt="Logo Destiladora Agave Azul" className="main-header__logo" />
+        <Hamburgers active={active} action={ToggleMenuFunction}/>
+        <Menu active={active} classN="main-menu" menu={data}/>
+      </div>
     </header>
   )
 };

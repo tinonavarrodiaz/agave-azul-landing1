@@ -2,13 +2,9 @@
 
 const Footer = () => {
   return (
-    <footer
-      className="main-footer"
-    >
-      <p className="">
-        DESTILADORA DE AGAVE AZUL, S.A DE C.V.
-      </p>
-      <ul className="social">
+    <footer className="Footer">
+      <p>DESTILADORA DE AGAVE AZUL, S.A DE C.V.</p>
+      <ul className="">
         <li>
           <a href="https://www.instagram.com/destiladoraagaveazul/" target="_blank">
             <img src="/img/instagram1.svg" alt="instagram" />

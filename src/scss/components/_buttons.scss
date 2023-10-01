@@ -1,5 +1,7 @@
 .hamburger {
   padding: 0;
+  scale: 0.75;
+  transform: translateY(5px);
 }
 
 .hamburger:hover,
@@ -14,7 +16,6 @@
 }
 
 .hamburger.is-active {
-
   .hamburger-inner,
   .hamburger-inner::after,
   .hamburger-inner::before {
@@ -22,8 +23,8 @@
   }
 }
 
-.toggle-menu{
-  @include from(l){
+.hamburger {
+  @include from(l) {
     display: none;
   }
 }

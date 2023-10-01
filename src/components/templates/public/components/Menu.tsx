@@ -2,13 +2,13 @@
 
 type Props = {
   active: boolean,
-  className?: string,
+  classN?: string,
   menu: [{title:string, url:string}]
 }
 
 
 
-const Menu = ({active, className, menu}:Props) => {
+const Menu = ({active, classN, menu}:Props) => {
 
 
 
@@ -18,7 +18,7 @@ const Menu = ({active, className, menu}:Props) => {
   }
 
   return (
-    <ul className={`${className?className:''} ${active ? 'is-active' : ''}`}>
+    <ul className={`${classN?classN:''} ${active ? 'is-active' : ''} ls-3`}>
       {
 
         menu?.map((item, index) => (

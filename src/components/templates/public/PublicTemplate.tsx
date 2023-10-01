@@ -46,13 +46,13 @@ function PublicTemplate() {
       <main>
         <BannerHero/>
         <Under data={data.under}/>
-        <Company text={data.company}/>
+        {/* <Company text={data.company}/>
         <Banner/>
         <Tequilas text={data.tequilas}/>
         <Retailers text={data.retailers}/>
-        <Contact text={data.contact}/>
+        <Contact text={data.contact}/> */}
       </main>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

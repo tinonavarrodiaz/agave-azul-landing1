@@ -1,14 +1,12 @@
-@use "sass:math";
+@use 'sass:math';
 
 @function rem($px) {
   @return math.div($px, 16px) * 1rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;900&display=swap');
-
 // Font families
-$heading-font: 'Roboto', sans-serif;
-$body-font: 'Montserrat', sans-serif;
+$heading-font: 'Trueno Regular', sans-serif;
+$body-font: 'Trueno Light', sans-serif;
 
 // CSS variables for typography
 :root {
@@ -23,8 +21,8 @@ $body-font: 'Montserrat', sans-serif;
   --normal-font-size: #{rem(15px)};
   --small-font-size: #{rem(13px)};
   --smaller-font-size: #{rem(12px)};
-  --heading-line-height: 1.3;
-  --body-line-height: 1.6;
+  --heading-line-height: 1.1;
+  --body-line-height: 1.4;
 
   // Font sizes from lg breakpoint (64em ~ 1024px)
   @include from(lg) {
@@ -51,9 +49,7 @@ $fontSizes: (
 @function fontSize($size) {
   @if map-has-key($fontSizes, $size) {
     @return map-get($fontSizes, $size);
-  }
-
-  @else {
+  } @else {
     @error '$size is not valid, valid values are title1, title2, title3, normal, small, smaller';
   }
 }
@@ -265,4 +261,3 @@ h6 {
   font-weight: 100;
   font-family: $heading-font;
 }
-

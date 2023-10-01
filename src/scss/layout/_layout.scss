@@ -1,0 +1,22 @@
+.container {
+  width: 90%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container1 {
+  width: 85%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-op-center {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.ls-3 {
+  letter-spacing: 3px;
+}
