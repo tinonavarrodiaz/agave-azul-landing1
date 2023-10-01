@@ -4,12 +4,12 @@ import Switch from "./components/Switch"
 import Header from "./components/Header"
 import BannerHero from "../../organisms/BannerHero"
 import Under from "../../organisms/Under"
-import Company from "../../organisms/Company"
-import Banner from "../../organisms/Banner"
-import Tequilas from "../../organisms/Tequilas"
-import Contact from "../../organisms/Contact"
-import Retailers from "../../organisms/Retailers"
-import Footer from "./components/Footer"
+// import Company from "../../organisms/Company"
+// import Banner from "../../organisms/Banner"
+// import Tequilas from "../../organisms/Tequilas"
+// import Contact from "../../organisms/Contact"
+// import Retailers from "../../organisms/Retailers"
+// import Footer from "./components/Footer"
 
 
 
