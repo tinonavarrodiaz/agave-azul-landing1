@@ -1,0 +1,16 @@
+.Company {
+  margin-top: 3em;
+  background: #efece3;
+  text-align: center;
+  padding: 1.5em 0;
+  @include from(l) {
+    margin-top: get-vw(218px);
+    font-size: get-vw(40px);
+    padding: get-vw(130px) 0 get-vw(135px);
+  }
+  br {
+    @include to(l) {
+      display: none;
+    }
+  }
+}

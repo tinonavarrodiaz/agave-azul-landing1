@@ -1,20 +1,33 @@
 .Under {
-  background: lime;
-  margin-top: 4em;
+  margin-top: 2em;
+  margin-bottom: 0;
   @include from(l) {
     margin-top: get-vw(179px);
   }
   &__container {
     display: flex;
     flex-direction: column;
+    @include from(l) {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      column-gap: get-vw(109px);
+    }
   }
   &__text {
     order: -1;
-    background: red;
-    margin-bottom: 3vw;
+    margin-bottom: 6vw;
     text-align: justify;
+    @include from(l) {
+      order: unset;
+      padding-top: get-vw(53px);
+      margin-bottom: 0;
+    }
     p {
       margin-bottom: 0;
+      @include from(l) {
+        font-size: get-vw(25.5px);
+        line-height: 1.5;
+      }
     }
   }
   &__title {
@@ -26,7 +39,21 @@
     }
     @include from(l) {
       text-align: left;
-      font-size: gat-vw(70px);
+      font-size: get-vw(70px);
+    }
+  }
+  .img {
+    // display: none;
+    @include from(l) {
+      width: 53.54166666666667vw;
+      height: 32.96875vw;
+      img {
+        // display: none;
+        object-position: right bottom;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 }

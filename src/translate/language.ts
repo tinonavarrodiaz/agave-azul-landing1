@@ -25,7 +25,7 @@ export const language = {
       subtext: 'Thank you for visiting us. Salud!.',
     },
     company:
-      'DESTILADORA DE AGAVE AZUL, S.A. de C.V., a 100% Mexican company established in the town of San Juanito de Escobedo, located 80 km from Guadalajara,<br/> in the western center of the State of Jalisco.',
+      'DESTILADORA DE AGAVE AZUL, S.A. de C.V., a 100% Mexican company established in<br/> the town of San Juanito de Escobedo, located 80 km from Guadalajara, in the <br/> western center of the State of Jalisco.',
     tequilas: {
       ts: 'Technical Sheet',
       btn: 'btn-ts-en',
@@ -92,7 +92,7 @@ export const language = {
       subtext: 'Gracias por visitarnos. ¡Salud!.',
     },
     company:
-      'DESTILADORA DE AGAVE AZUL, S.A. de C.V., empresa 100% mexicana establecida en el pueblo de San Juanito de Escobedo, ubicado a 80 km de Guadalajara, en el centro occidental del Estado de Jalisco.',
+      'DESTILADORA DE AGAVE AZUL, S.A. de C.V., empresa 100% mexicana establecida en<br/> el pueblo de San Juanito de Escobedo, ubicado a 80 km de Guadalajara, en el<br/> centro occidental del Estado de Jalisco.',
     tequilas: {
       ts: 'Ficha Técnica',
       btn: 'btn-ts-es',

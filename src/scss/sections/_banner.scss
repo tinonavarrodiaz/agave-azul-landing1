@@ -1,0 +1,18 @@
+.Banner {
+  margin-bottom: 0;
+  @include to(lg) {
+    padding: 3em 0;
+  }
+  @include from(lg) {
+    width: get-vw(1619px);
+  }
+  padding: get-vw(119px) 0 get-vw(300px);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: get-vw(78px);
+  &.container {
+    @include to(m) {
+      // width: 60%;
+    }
+  }
+}

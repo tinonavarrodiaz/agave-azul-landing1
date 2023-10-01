@@ -4,8 +4,8 @@ import Switch from "./components/Switch"
 import Header from "./components/Header"
 import BannerHero from "../../organisms/BannerHero"
 import Under from "../../organisms/Under"
-// import Company from "../../organisms/Company"
-// import Banner from "../../organisms/Banner"
+import Company from "../../organisms/Company"
+import Banner from "../../organisms/Banner"
 // import Tequilas from "../../organisms/Tequilas"
 // import Contact from "../../organisms/Contact"
 // import Retailers from "../../organisms/Retailers"
@@ -46,9 +46,9 @@ function PublicTemplate() {
       <main>
         <BannerHero/>
         <Under data={data.under}/>
-        {/* <Company text={data.company}/>
+        <Company text={data.company}/>
         <Banner/>
-        <Tequilas text={data.tequilas}/>
+        {/* <Tequilas text={data.tequilas}/>
         <Retailers text={data.retailers}/>
         <Contact text={data.contact}/> */}
       </main>

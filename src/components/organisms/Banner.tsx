@@ -2,7 +2,7 @@ import Image1 from "../molecules/Image1"
 
 const Banner = () => {
   return (
-    <div className="Banner">
+    <div className="Banner container">
       <div data-aos="flip-left">
         <Image1 name="botella" ext="jpg" />
       </div>

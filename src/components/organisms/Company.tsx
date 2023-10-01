@@ -8,7 +8,7 @@ const Company = ({text}:Props) => {
 
   return (
     <section className="Company">
-      <p className="Company__text">{parse(`${text}`)} </p>
+      <p className="Company__text container">{parse(`${text}`)} </p>
     </section>
   )
 }
