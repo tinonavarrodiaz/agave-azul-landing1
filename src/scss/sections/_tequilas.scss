@@ -1,0 +1,153 @@
+.Tequila-bg {
+  background: linear-gradient(#fff 47.5%, #efefef 47.5%);
+}
+
+.Tequilas {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  @include from(lg) {
+    width: get-vw(1677.1434px);
+    padding-bottom: get-vw(55px);
+  }
+  &__grid {
+    @include from(m) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: end;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--color-title);
+    letter-spacing: 3px;
+    margin-bottom: 10vw;
+    @include from(m) {
+      margin-bottom: get-vw(113px);
+      font-size: get-vw(70px);
+    }
+  }
+  &__img {
+    margin: 0 auto;
+    margin-bottom: 5vw;
+    width: auto;
+    height: 200px;
+    @include from(m) {
+      // height: get-vw(480px);
+      margin-bottom: get-vw(38px);
+      width: 100%;
+      height: auto;
+      transform-origin: bottom center;
+      transform: scale(0.93);
+    }
+    // &.don-anselmo {
+    //   height: 150px;
+    //   @include from(m) {
+    //     width: 100%;
+    //     height: auto;
+    //   }
+    // width: 75%;
+    // height: auto;
+    // padding-top: get-vw(87px);
+    // }
+  }
+  // .item-1 {
+  //   @include from(m) {
+  //     height: 20.57vw;
+  //   }
+  // }
+  &__name {
+    font-family: 'Kohinoor Bangla';
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: bold;
+    text-align: center;
+    font-size: 5vw;
+    letter-spacing: 2px;
+    color: #868686;
+    @include from(m) {
+      font-size: 1.927vw;
+      letter-spacing: 3px;
+    }
+  }
+  &__item {
+    margin-bottom: 1.6em;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @include from(m) {
+      margin-bottom: 0;
+    }
+  }
+  &__buttons {
+    display: grid;
+    grid-template-columns: auto 1.3em;
+    align-items: center;
+    width: 43%;
+    margin: 0 auto;
+    column-gap: 0.5em;
+    @include from(l) {
+      column-gap: 1em;
+      width: 45%;
+      grid-template-columns: auto 1.4em;
+    }
+    @include from(2xl) {
+      grid-template-columns: auto 1.8em;
+    }
+  }
+}
+.footer-tequila {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  @include from(m) {
+    margin-top: 10.41666666666667vw;
+    height: 3.9vw;
+  }
+  .icon-container {
+    display: flex;
+    align-items: center;
+  }
+  .icon-cert {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  .k {
+    // @apply h-[85%] ml-2 md:ml-[1.822916666666667vw];
+    height: 85%;
+    margin-left: 0.6em;
+    @include from(m) {
+      margin-left: 1.822916666666667vw;
+    }
+  }
+  .ara {
+    // @apply h-[50%] ml-5 md:ml-[3.90vw];
+    height: 50%;
+    margin-left: 0.9em;
+    @include from(m) {
+      margin-left: 3.9vw;
+    }
+  }
+  .num,
+  .crt {
+    // @apply h-[60%] ml-2 md:ml-[1.822916666666667vw];
+    height: 60%;
+    margin-left: 0.6em;
+    @include from(m) {
+      margin-left: 1.822916666666667vw;
+    }
+  }
+}
+@include from(l) {
+  .Tequilas__item {
+    &:first-child {
+      transform: translateX(-10%);
+    }
+    &:last-child {
+      transform: translateX(6%);
+    }
+  }
+}
