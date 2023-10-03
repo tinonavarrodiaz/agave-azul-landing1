@@ -120,8 +120,8 @@ export const language = {
       subTitle: 'para nuestros tequilas',
     },
     contact: {
-      title: 'Contacta con',
-      titleSpan: 'nosotros',
+      title: 'Contáctanos',
+      titleSpan: '',
       subTitle:
         '¡Descubre por qué cada vez más marcas están pasando a formar parte de nuestra lista de clientes!',
       inputs: {

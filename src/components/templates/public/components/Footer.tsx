@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <footer className="Footer">
+    <footer className="main-footer">
       <p>DESTILADORA DE AGAVE AZUL, S.A DE C.V.</p>
       <ul className="">
         <li>

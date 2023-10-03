@@ -1,2 +1,39 @@
 .main-footer {
+  padding: 6em 1em 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @include to(lg) {
+    flex-direction: column;
+    align-items: center;
+  }
+  p {
+    font-size: 0.8em;
+    margin-bottom: 0;
+    color: #000;
+    @include to(lg) {
+      margin-bottom: 1em;
+    }
+    @include from(l) {
+      font-size: get-vw(16px);
+    }
+  }
+  @include from(l) {
+    padding: get-vw(268px) get-vw(184px) get-vw(110px) get-vw(74px);
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1.5em);
+    column-gap: 1em;
+    @include from(l) {
+      grid-template-columns: repeat(2, get-vw(35px));
+      column-gap: get-vw(20px);
+    }
+    a,
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
 }

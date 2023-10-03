@@ -17,6 +17,7 @@
     order: -1;
     margin-bottom: 6vw;
     text-align: justify;
+    color: #414042;
     @include from(l) {
       order: unset;
       padding-top: get-vw(53px);

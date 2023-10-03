@@ -16,11 +16,11 @@ const Retailers = ({text}:Props) => {
       >
         {text?.title}
       </h2>
-      <h3
+      <p
         className="Retrailers__subtitle"
       >
         {text?.subTitle}
-      </h3>
+      </p>
       <div className="Retrailers__map">
         <Maps />
       </div>

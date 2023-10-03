@@ -1,6 +1,7 @@
 // import Form from "../molecules/Form"
 
 import Form from "../molecules/Form"
+import Image3 from "../molecules/Image3"
 
 type Props = {
   text: {
@@ -20,28 +21,31 @@ type Props = {
 
 const Contact = ({text}:Props) => {
   return (
-    <section className="Contact" id="contact">
+    <section className="Contact container" id="contact">
   <h2
     className="Contact__title"
   >
     {text?.title}
     <span className="Contact__span">{text?.titleSpan}</span>
   </h2>
-  <h3
+  <p
     className="Contact__subtitle"
   >
     {text?.subTitle}
-  </h3>
+  </p>
   <div
     className="Contact__grid"
   >
-    <img
-      src="/img/san-juanito.jpg"
+    <div className="Contact__img">
+      <Image3 name="san-juanito1" ext="jpg" cName="Contact__img--pic"/>
+    {/* <img
+      src="/img/san-juanito1@.jpg"
       alt="San Juanito de Escobedo"
-      className="contact_img"
       data-aos="fade-right"
-    />
-    <div className="" data-aos="fade-left">
+    /> */}
+
+    </div>
+    <div className="Contact__text" data-aos="fade-left">
       <Form
         input={text?.inputs}
       />

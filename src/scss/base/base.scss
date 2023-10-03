@@ -8,6 +8,7 @@ body,
 #root {
   max-width: 100vw;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -85,4 +86,7 @@ h6 {
 p:only-child,
 p:last-child {
   margin-bottom: 0;
+}
+*:target {
+  scroll-margin-top: calc(var(--header-height) + 2em);
 }

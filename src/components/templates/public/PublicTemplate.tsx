@@ -7,9 +7,9 @@ import Under from "../../organisms/Under"
 import Company from "../../organisms/Company"
 import Banner from "../../organisms/Banner"
 import Tequilas from "../../organisms/Tequilas"
-// import Contact from "../../organisms/Contact"
-// import Retailers from "../../organisms/Retailers"
-// import Footer from "./components/Footer"
+import Retailers from "../../organisms/Retailers"
+import Contact from "../../organisms/Contact"
+import Footer from "./components/Footer"
 
 
 
@@ -49,10 +49,10 @@ function PublicTemplate() {
         <Company text={data.company}/>
         <Banner/>
         <Tequilas text={data.tequilas}/>
-        {/* <Retailers text={data.retailers}/>
-        <Contact text={data.contact}/> */}
+        <Retailers text={data.retailers}/>
+        <Contact text={data.contact}/>
       </main>
-      {/* <Footer/> */}
+      <Footer/>
     </>
   )
 }

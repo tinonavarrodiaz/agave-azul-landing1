@@ -1,10 +1,10 @@
-import Image from "../molecules/Image"
+import Image3 from "../molecules/Image3"
 
 const BannerHero = () => {
   return (
   <div className="Hero">
     <div className="Hero__container container" data-aos="zoom-out">
-      <Image name="campo" ext="jpg" cName="Hero__image img-op-center" />
+      <Image3 name="campo" ext="jpg" cName="Hero__image img-op-center" />
     </div>
   </div>
   )

@@ -12,7 +12,7 @@ $breakpoints: (
   lg: 1024px,
   l: 1024px,
   xl: 1400px,
-  2xl: 1830px,
+  2xl: 1600px,
   3xl: 1920px,
 );
 
@@ -57,8 +57,8 @@ $legacy: true; // Soporte para versiones antiguas
 @import 'sections/company';
 @import 'sections/banner';
 @import 'sections/tequilas';
-
-// Utilities (hacks)
+@import 'sections/retrailers';
+@import 'sections/contact'; // Utilities (hacks)
 // Todos los hacks que hayas necesitado para solucionar conflictos
 // o resolver situaciones extremas. Se espera poder mejorarlos luego.
 @import 'hacks/hacks';

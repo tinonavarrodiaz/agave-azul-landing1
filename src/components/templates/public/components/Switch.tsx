@@ -18,7 +18,7 @@ function Switch({lang, langFn}: Props) {
     langFn()
   }
   return (
-    <div className="switch">
+    <div className="switch" id="switch">
       <div className='ui-switch-container'>
         <label className="ui-switch">
           English

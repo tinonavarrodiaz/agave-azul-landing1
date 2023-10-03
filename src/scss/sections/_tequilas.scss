@@ -24,7 +24,7 @@
     letter-spacing: 3px;
     margin-bottom: 10vw;
     @include from(m) {
-      margin-bottom: get-vw(113px);
+      margin-bottom: get-vw(90px);
       font-size: get-vw(70px);
     }
   }

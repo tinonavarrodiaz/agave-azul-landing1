@@ -1,8 +1,10 @@
 .Company {
   margin-top: 3em;
   background: #efece3;
+  color: #666666;
   text-align: center;
-  padding: 1.5em 0;
+  padding: 2.5em 1.5em;
+  font-size: 0.9em;
   @include from(l) {
     margin-top: get-vw(218px);
     font-size: get-vw(40px);

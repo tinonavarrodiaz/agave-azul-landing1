@@ -1,4 +1,4 @@
-import Image from "../molecules/Image"
+import Image3 from "../molecules/Image3"
 
 type Props = {
   data: {
@@ -13,7 +13,7 @@ const Under = ({data}:Props) => {
     <section className="Under">
       <div className=" container1 Under__container w-container-2 mx-auto md:grid">
         <div className="img" data-aos="fade-right">
-          <Image name="jimador" ext="jpg" />
+          <Image3 name="jimador" ext="jpg" />
         </div>
         <div className="Under__text lg:pb-8" data-aos="fade-left">
           <h1
