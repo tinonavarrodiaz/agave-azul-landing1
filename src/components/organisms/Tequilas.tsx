@@ -70,20 +70,9 @@ const Tequilas = ({text}:Props) => {
       }
     </div>
     <div className="footer-tequila">
-      <div className="icon-container c-left">
-        <img
-          src="/img/ara-sello.svg"
-          alt="ARA Certification"
-          className="icon-cert as"
-        />
-        <img src="/img/k.svg" alt="kosher Certification" className="icon-cert k" />
-        <img src="/img/ara.svg" alt="Certifications" className="icon-cert ara" />
-      </div>
-      <div className="icon-container c-right">
-        <img src="/img/nom.svg" alt="NOM" className="icon-cert nom" />
-        <img src="/img/1424.svg" alt="1424" className="icon-cert num" />
-        <img src="/img/crt.svg" alt="crt" className="icon-cert crt" />
-      </div>
+      <img src="/img/cerleft@2x.png" alt="" />
+      <div className="space"></div>
+      <img src="/img/certright@2x.png" alt="" />
     </div>
   </section>
   </div>

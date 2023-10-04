@@ -98,46 +98,33 @@
   }
 }
 .footer-tequila {
-  height: 30px;
-  display: flex;
+  height: 80px;
   justify-content: space-between;
+
   margin-top: 75px;
+  background: lightcoral;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-row-gap: 5px;
+  justify-content: center;
+  @include to(m) {
+    > div {
+      display: none;
+    }
+  }
+  img {
+    width: auto;
+    height: 30px;
+    margin: 0 auto;
+  }
   @include from(m) {
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: uset;
     margin-top: 10.41666666666667vw;
     height: 3.9vw;
-  }
-  .icon-container {
-    display: flex;
-    align-items: center;
-  }
-  .icon-cert {
-    display: block;
-    width: auto;
-    height: 100%;
-  }
-  .k {
-    // @apply h-[85%] ml-2 md:ml-[1.822916666666667vw];
-    height: 85%;
-    margin-left: 0.6em;
-    @include from(m) {
-      margin-left: 1.822916666666667vw;
-    }
-  }
-  .ara {
-    // @apply h-[50%] ml-5 md:ml-[3.90vw];
-    height: 50%;
-    margin-left: 0.9em;
-    @include from(m) {
-      margin-left: 3.9vw;
-    }
-  }
-  .num,
-  .crt {
-    // @apply h-[60%] ml-2 md:ml-[1.822916666666667vw];
-    height: 60%;
-    margin-left: 0.6em;
-    @include from(m) {
-      margin-left: 1.822916666666667vw;
+    img {
+      width: auto;
+      height: 3.9vw;
     }
   }
 }
