@@ -1,5 +1,10 @@
 .Tequila-bg {
-  background: linear-gradient(#fff 47.5%, #efefef 47.5%);
+  // --size: 47.5%;
+  --size: 35%;
+  @include from(l) {
+    --size: 28%;
+  }
+  background: linear-gradient(#fff var(--size), #efefef var(--size));
 }
 
 .Tequilas {
@@ -15,6 +20,8 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       align-items: end;
+      // grid-template-areas: item item item, item3 item3 item3;
+      row-gap: get-vw(70px);
     }
   }
   &__title {
@@ -133,8 +140,39 @@
     &:first-child {
       transform: translateX(-10%);
     }
-    &:last-child {
+    &:nth-child(3) {
       transform: translateX(6%);
     }
+  }
+}
+.suavecito {
+  grid-column: 1 / span 4;
+  // grid-area: item3;
+  img {
+    width: 90%;
+    height: auto;
+    @include from(l) {
+      width: get-vw(840px);
+    }
+  }
+  .btn-ts {
+    display: none;
+  }
+  .Tequilas__buttons {
+    display: flex;
+    justify-content: center;
+    // height: get-vw(36px);
+    // width: get-vw(36px);
+    img {
+      height: get-vw(36px);
+      width: get-vw(36px);
+      @include to(l) {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .btn-icon {
+    transform: translateX(-50%);
   }
 }

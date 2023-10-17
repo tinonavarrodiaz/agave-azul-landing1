@@ -46,6 +46,11 @@ export const language = {
           src: 'la-tarea1',
           instagram: 'https://www.instagram.com/latareatequila/',
         },
+        {
+          name: 'suavecito',
+          src: 'suavecito',
+          instagram: 'https://www.instagram.com/suavecito_tequila/',
+        },
       ],
     },
     retailers: {
@@ -65,6 +70,12 @@ export const language = {
       },
       offices: 'OFFICES',
       distillery: 'DISTILLERY',
+      messages: {
+        success: 'Form sent successfully. We will contact you shortly',
+        error: 'An error occurred. Please try again later',
+      },
+      // message: 'Form sent successfully. We will contact you shortly',
+      // messageError: 'An error occurred. Please try again late',
     },
   },
   es: {
@@ -113,6 +124,11 @@ export const language = {
           src: 'la-tarea1',
           instagram: 'https://www.instagram.com/latareatequila/',
         },
+        {
+          name: 'suavecito',
+          src: 'suavecito',
+          instagram: 'https://www.instagram.com/suavecito_tequila/',
+        },
       ],
     },
     retailers: {
@@ -132,6 +148,14 @@ export const language = {
       },
       offices: 'Oficinas',
       distillery: 'Disteleria',
+      messages: {
+        success:
+          'El mensaje se ha enviado con exito, en breve nos pondremos en contacto',
+        error: 'Ha ocurrido un error. Por favor intentelo más tarde',
+      },
+      // message:
+      //   'El mensaje se ha enviado con exito, en breve nos pondremos en contacto',
+      // messageError: 'Ha ocurrido un error. Por favor intentelo más tarde',
     },
   },
 };

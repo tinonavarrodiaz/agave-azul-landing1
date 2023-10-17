@@ -104,6 +104,7 @@
   textarea {
     resize: none;
     line-height: 1.2;
+    height: 100px;
     @include from(lg) {
       height: get-vw(170px);
     }
@@ -179,6 +180,38 @@
     // aspect-ratio: 1/1.2;
     img {
       height: get-vw(667px);
+    }
+  }
+}
+.dialog {
+  border: 2px solid darkgreen;
+  // background: #f0fdf4;
+  padding: 4em;
+  box-shadow: 5px 5px 16px rgba(darkgreen, 0.3);
+  &__close {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    border: none;
+    background: transparent;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    column-gap: 2em;
+    svg {
+      stroke: darkgreen;
+      fill: darkgreen;
+      width: 3em;
+      height: 3em;
+    }
+  }
+  &.error {
+    border-color: darkred;
+    box-shadow: 5px 5px 16px rgba(darkred, 0.3);
+    svg {
+      stroke: darkred;
+      fill: darkred;
     }
   }
 }

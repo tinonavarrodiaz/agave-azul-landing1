@@ -16,10 +16,15 @@ type Props = {
     },
     offices:string,
     distillery:string,
+    messages:{
+      success:string,
+      error:string,
+    }
   }
 }
 
 const Contact = ({text}:Props) => {
+  console.log(text)
   return (
     <section className="Contact container" id="contact">
   <h2
@@ -48,6 +53,7 @@ const Contact = ({text}:Props) => {
     <div className="Contact__text" data-aos="fade-left">
       <Form
         input={text?.inputs}
+        messages={text?.messages}
       />
       <div className="Contact__adresses">
         <div className="Contact__offices">

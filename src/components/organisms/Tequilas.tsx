@@ -37,13 +37,13 @@ const Tequilas = ({text}:Props) => {
       {
         text?.tequilas.map((item:any, index:number) => (
           <div
-            className={`Tequilas__item item-${index}`}
+            className={`Tequilas__item item-${index} ${item.name.replace(/\s+/g, '-')}`}
             data-aos="fade-up"
             data-aos-delay={`${index * 150}`}
             key={index}
           >
             <img
-              className={`Tequilas__img ${item.name.replace(/\s+/g, '-')}`}
+              className={`Tequilas__img `}
               src={`/img/${item.src}.png`}
               alt={`Tequila ${item.name}`}
             />
@@ -66,6 +66,7 @@ const Tequilas = ({text}:Props) => {
               </a>
             </div>
           </div>
+
         ))
       }
     </div>

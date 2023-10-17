@@ -83,7 +83,11 @@ main {
     right: 5vw;
   }
   &.fixed {
-    transform: translateY(-50%);
+    transform: translateY(-20%);
+    // scale: 0.3;
+    @include from(lg) {
+      transform: translateY(-50%);
+    }
   }
 }
 // .main-header{

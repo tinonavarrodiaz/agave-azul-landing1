@@ -12,7 +12,7 @@
 .hamburger-inner,
 .hamburger-inner::after,
 .hamburger-inner::before {
-  background-color: var(--color-main);
+  background-color: var(--color-main) !important;
 }
 
 .hamburger.is-active {
@@ -27,4 +27,7 @@
   @include from(l) {
     display: none;
   }
+}
+button {
+  cursor: pointer;
 }
