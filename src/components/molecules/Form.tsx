@@ -57,7 +57,7 @@ const Form = ({input, messages}:Props) => {
   }
   return (
     <>
-    <form action="https://laquintaplumbingsolutions.com/test/email.php" className="Form" ref={form} onSubmit={send}>
+    <form action="/php/send.php" className="Form" ref={form} onSubmit={send}>
       <div className="Form__grid">
         <div className="input-group">
           <label htmlFor="name">{input?.name}</label>
