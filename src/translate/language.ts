@@ -48,7 +48,7 @@ export const language = {
         },
         {
           name: 'suavecito',
-          src: 'suavecito',
+          src: 'suavecito1',
           instagram: 'https://www.instagram.com/suavecito_tequila/',
         },
       ],
@@ -126,7 +126,7 @@ export const language = {
         },
         {
           name: 'suavecito',
-          src: 'suavecito',
+          src: 'suavecito1',
           instagram: 'https://www.instagram.com/suavecito_tequila/',
         },
       ],
