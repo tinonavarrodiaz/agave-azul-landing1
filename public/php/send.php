@@ -39,7 +39,7 @@ $email = $_POST['email'];
 
 $msg = $_POST['msg'];
 
-$emailTo = "tino.navarro@hotmail.com";
+$emailTo = "sistemas@destiladoraagaveazul.com.mx";
 
 
 
