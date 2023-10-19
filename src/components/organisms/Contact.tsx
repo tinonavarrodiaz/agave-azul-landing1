@@ -31,7 +31,7 @@ const Contact = ({text}:Props) => {
     className="Contact__title"
   >
     {text?.title}
-    <span className="Contact__span">{text?.titleSpan}</span>
+    {/* <span className="Contact__span">{text?.titleSpan}</span> */}
   </h2>
   <p
     className="Contact__subtitle"

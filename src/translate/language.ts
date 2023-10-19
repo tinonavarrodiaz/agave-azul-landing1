@@ -21,7 +21,7 @@ export const language = {
     ],
     under: {
       title: 'SITE UNDER RENOVATION',
-      text: 'Hello and welcome to Destiladora de Agave Azul. We are currently remodeling our website to improve our clients and user experience to offer a better service. Meanwhile, deel free to learn more about us and if you are interested in our distillery, please contact us by clicking here or scroll at the bottom of this page.',
+      text: 'Hello and welcome to Destiladora de Agave Azul. We are currently remodeling our website to improve our clients and user experience to offer a better service. Meanwhile, feel free to learn more about us and if you are interested in our distillery, please contact us by clicking here or scroll at the bottom of this page.',
       subtext: 'Thank you for visiting us. Salud!.',
     },
     company:
@@ -58,7 +58,7 @@ export const language = {
       subTitle: 'for our home tequilas',
     },
     contact: {
-      title: 'Contact',
+      title: 'Contact us',
       titleSpan: 'us',
       subTitle:
         'Discover why more brands are becoming part of our clients list!',

@@ -14,11 +14,11 @@
     margin-bottom: 0.8em;
     text-align: center;
     @include from(l) {
-      transform: translateX(-100%);
-      left: 100%;
-      position: relative;
-      text-align: left;
-      display: table;
+      // transform: translateX(-100%);
+      // left: 100%;
+      // position: relative;
+      // text-align: left;
+      // display: table;
       font-size: 3.645vw;
       margin-bottom: 4.583vw;
     }
