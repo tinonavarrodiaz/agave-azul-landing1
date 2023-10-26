@@ -41,7 +41,7 @@ const Contact = ({text}:Props) => {
   <div
     className="Contact__grid"
   >
-    <div className="Contact__img">
+    <div className="Contact__img" data-aos="fade-right">
       <Image3 name="san-juanito1" ext="jpg" cName="Contact__img--pic"/>
     {/* <img
       src="/img/san-juanito1@.jpg"

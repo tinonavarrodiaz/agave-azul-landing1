@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import AOS from 'aos';
 import { language } from "../../../translate/language"
 import Switch from "./components/Switch"
 import Header from "./components/Header"
@@ -28,6 +29,14 @@ function PublicTemplate() {
 
     }
     document.documentElement.lang=lang
+    AOS.init({
+      easing: 'ease-out-back',
+      duration: 1250,
+      startEvent: 'DOMContentLoaded',
+      useClassNames: true,
+      offset: 250,
+      // once: true,
+    });
   }, [lang])
   const langChange = () => {
     if(lang === 'en'){
