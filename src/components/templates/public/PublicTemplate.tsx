@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+
 import AOS from 'aos';
 import { language } from "../../../translate/language"
 import Switch from "./components/Switch"
