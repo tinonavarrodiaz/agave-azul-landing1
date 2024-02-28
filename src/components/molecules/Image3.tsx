@@ -20,7 +20,7 @@ const Image3 = ({ name, ext, cName }:Props) => {
         media="(min-width: 768px)"
       />
       <source srcSet={`/img/${name}.${ext}`} media="(min-width: 768px)" />
-      <source srcSet={`/img/san-juanito.jpg`} media="(max-width: 768px)" />
+      <source srcSet={`/img/${name}.${ext}`} media="(max-width: 768px)" />
       <img src={`/img/${name}.${ext}`} alt={name} />
     </picture>
   )
