@@ -1,4 +1,4 @@
-import Maps from "../molecules/Maps1"
+import Maps from "../molecules/Maps"
 
 type Props = {
   text: {
